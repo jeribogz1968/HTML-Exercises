@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1><strong>Registration Form </strong> </h1>
+    <p>
+    <form action="https://regform.com/submit">
+        <label for="FirstName">First Name:</label>
+        <input type="text" id="FirstName" name="FirstName" placeholder="John" style="background-color: aliceblue;">
+        <p>
+
+            <label for="LastName"> Last Name: </label>
+            <input type="text" name="LastName" id="LastName" placeholder="Doe" required
+                style="background-color: aliceblue;">
+        <p>
+            <label for="ChooseCourse">Course:</label>
+            <select name="Courses" id="ChooseCourse">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">Javascript</option>
+            </select>
+        </p>
+        </p>
+        <p>Gender:
+            <br> <input type="radio" name="Male-Female" id="Male"><label for="Male"> Male</label>
+            <br>
+            <input type="radio" name="Male-Female" id="Female"><label for="Female">Female</label>
+
+        </p>
+        <p>Hobbies:
+            <br><input type="checkbox" name="programming" id="prog"> <label for="prog">Programming</label>
+            <br><input type="checkbox" name="basketball" id="bball"> <label for="bball">Basketball</label>
+            <br> <input type="checkbox" name="football" id="fball"> <label for="fball">Football</label>
+            <br><input type="checkbox" name="readingnovel" id="reading"> <label for="reading">Reading Novel</label>
+        </p>
+        <p>
+            <label for="PhoneNo.">Phone:</label>
+            <input type="text" name="Phone" id="PhoneNo." style="background-color: aliceblue;">
+        </p>
+        <p>
+            <label for="addr">Address:</label>
+            <br><textarea name="address" id="addr" cols="50" rows="5"
+                placeholder="Street Name and No., Postal Code, City,Country" required></textarea>
+        </p>
+        <p>
+            <label for="email"> Email:</label>
+            <input type="email" name="Email" id="email" placeholder="johndoe@example.com"
+                style="background-color: aliceblue;" required>
+        </p>
+        <p>
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass" required style="background-color: aliceblue;">
+        </p>
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+
+
+
+    </form>
+    </p>
+
+</body>
+
+</html>
